@@ -21,6 +21,8 @@ export default function Container() {
   return (
     <div>
       <Picture postdata={data} />
+
+      <h3 className="info">{data.explanation}</h3>
     </div>
   );
 }
